@@ -16,3 +16,32 @@ button {
     background-color: rgb(242, 233, 233);
     color: black;
 }
+.Access{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+.Eaglet{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+.Crow{
+    text-align: center;
+    color: black;
+    font-size: 35px;
+}
+.Raven{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    margin-top: 1.5px;
+
+}
+.Owl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 20px;
+}
