@@ -11,8 +11,13 @@ button {
     margin: 4px 2px;
     cursor: pointer;
 }
-.Joseph{
-    text-align: center;
-    background-color: rgb(242, 233, 233);
-    color: black;
+/*desktop or TV outlay*/
+@media (min-width: 1025px) {
+    .Joseph {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    /* Other desktop-specific styles */
 }
