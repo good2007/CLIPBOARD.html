@@ -117,115 +117,84 @@ button {
     justify-content: center;
     background-color: white;
     color: black;
-    
-<<<<<<< HEAD
+    font-size: 20px;
     }
+    /* Joseph / footer section */
+.Joseph {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 60px;
+  background-color: #f8f8f8;
+  flex-wrap: wrap;
+}
 
+.Joseph .Logo img {
+  width: 50px;
+  height: auto;
+}
 
+/* navigation columns */
+.Links {
+  display: flex;
+  gap: 60px;
+}
 
+.Links .seg1,
+.Links .seg2,
+.Links .seg3 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
 
-    /* Joseph Section */
-    .Joseph {
-        justify-content: center;
-        background-color: rgb(248, 248, 248);
-        color: black;
-        font-size: 20px;
-        align-items: center;
-        display: flex;
-    }
-    #Logopic {
-      width: 50px;
-      height: auto;
-    }
-    #IconFB {
-      width: 30px;
-      height: auto;
-    }
-    #IconTwitter {
-      width: 30px;
-      height: auto;
-    }
-    #IconInstagram {
-      width: 30px;
-      height: auto;
-    }
-    .links {
-      display: flex;
-      gap: 10px;
-      margin-left: 50px;
-    }
-    .Icons {
-      display: flex;
-      gap: 10px;
-      margin-left: 50px;
-    }
+.Links a {
+  text-decoration: none;
+  color: #4c545d;
+  font-size: 14px;
+}
 
-    /*--Media Queries--*/
-    @media (max-width: 600px) {
-      .Joseph {
-    background-color: #d9d9d9;
-    padding: 40px 20px;
-    text-align: center;
+.Icons {
+  display: flex;
+  gap: 20px;
+}
+
+.Icons img {
+  width: 24px;
+  height: auto;
+}
+
+/* attribution underneath */
+.site-footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #ffffff;
+  }
+
+.site-footer .attribution {
+  font-size: 11px;
+  color: #9fabb2;
+}
+
+.site-footer .attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+/* responsive tweaks */
+@media (max-width: 768px) {
+  .Joseph {
     flex-direction: column;
-}
+    text-align: center;
+    gap: 30px;
+  }
 
-.Logopic {
-    width: 80px;
-    margin-bottom: 30px;
-}
-
-.links {
-    display: flex;
+  .Links {
     flex-direction: column;
     gap: 20px;
-    margin-bottom: 30px;
-}
+  }
 
-.links a {
-    text-decoration: none;
-    color: #555;
-    font-size: 18px;
-}
-
-.Icons {
-    display: flex;
+  .Icons {
     justify-content: center;
-    gap: 25px;
+  }
 }
-
-.Icons {
-    width: 25px;
-}
-    }
-    @media (min-width: 768px) {
-
-    .Joseph {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 30px 60px;
-        text-align: left;
-        background-color: whitesmoke;
-        color: black;
-    }
-    
-    .Logopic {
-        flex: 1;
-    }
-
-    .links {
-        flex-direction: row;
-        justify-content: center;
-        gap: 40px;
-        margin-bottom: 0;
-        display: flex;
-    }
-
-    .Icons {
-        flex: 1;
-        justify-content: flex-end;
-    }
-}
-=======
- 
->>>>>>> 29e253452e548d74c024fa9d11d9bdcaba9750ea
