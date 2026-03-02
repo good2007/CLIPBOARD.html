@@ -172,13 +172,45 @@ button {
   }
 
 .site-footer .attribution {
-  font-size: 11px;
-  color: #9fabb2;
+  font-size: 14px;
+  color: #666666;
 }
 
 .site-footer .attribution a {
   color: hsl(228, 45%, 44%);
   text-decoration: none;
+}
+/* ---------- footer link / icon interaction ---------- */
+.Joseph .Links a {
+  color: #4c545d;           /* normal dark text */
+  text-decoration: none;
+  font-size: 14px;
+  transition: color .2s;
+  cursor: pointer;
+}
+
+.Joseph .Links a:hover,
+.Joseph .Links a:focus {
+  color: #2a7bcc;           /* highlight on hover/focus */
+}
+
+.Joseph .Icons a {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.Joseph .Icons a:hover img,
+.Joseph .Icons a:focus img {
+  filter: brightness(1.2);
+}
+
+.site-footer .attribution a {
+  color: #2a7bcc;           /* make the tiny bottom links visible */
+}
+
+.site-footer .attribution a:hover,
+.site-footer .attribution a:focus {
+  text-decoration: underline;
 }
 
 /* responsive tweaks */
@@ -197,4 +229,4 @@ button {
   .Icons {
     justify-content: center;
   }
-}
+  
