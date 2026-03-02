@@ -21,3 +21,13 @@ button {
 
     /* Other desktop-specific styles */
 }
+.Joseph {
+    background-color: #f4f4f4;
+    padding: 25px 60px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
