@@ -230,3 +230,17 @@ button {
     justify-content: center;
   }
   
+}
+
+/*Media queries for Percy's section*/
+@media (max-width: 768px) {
+  .Percy {
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 28px;
+        padding:  20px; /* prevents text touching screen edges */
+    }
+    
+}
