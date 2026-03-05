@@ -1,0 +1,39 @@
+OVERVIEW 
+The project was about creating a website with two layouts;
+1) Desktop mode 
+2) Mobile phone mode
+
+PROJECT SOURCE; FRONT END MENTOR CHALLENGES
+
+RESOURCES;
+Images from front end mentor 
+chatgpt
+Gemini 
+YouTube 
+
+Developers;
+The project was done by 4 gentlemen of team Avatar;
+Goodrick - Team leader 
+Percy
+Moses
+Joseph
+
+CODES
+The project has a html section and css section.
+html section shows the backbone of the project with all the wording.
+The html was divided into four section with each menber allocated a part.  This section are separated by comments with users names.
+Styling of the website was done individualy after which we meeged the project to form one repository.
+
+APP USED 
+Visual studio code 
+GitHub 
+
+The project wad initialized by Goodrick in his GitHub account then he invited all the other members to contribute to the project.
+Each member commited his part after completing any changes and pushed it to GitHub then synchronized to live the changes made.
+
+Deployment 
+The project was deployed using Vercel app and GitHub.
+
+Acknowledgements;
+Tevin Owino- our tech trainer for his unwavering support and care through out the entire program.
+YouTube - providing all the necessary resources required during inquiry 
